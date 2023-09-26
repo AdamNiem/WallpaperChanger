@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61722242AB270070081D08E /* changeWallpaper in Embed Helper Tools yee */ = {isa = PBXBuildFile; fileRef = B61722222AB26EC90081D08E /* changeWallpaper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B61722252AB2701D0081D08E /* Calcer.VirgeWallpaperChangerHard.agent.plist in Copy Agent Property Lists */ = {isa = PBXBuildFile; fileRef = B6F21C7E2AAEA5A200E6DEDE /* Calcer.VirgeWallpaperChangerHard.agent.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B62728D32AA049770043AB4B /* VirgeWallpaperChangerHardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728D22AA049770043AB4B /* VirgeWallpaperChangerHardApp.swift */; };
+		B62728D52AA049770043AB4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728D42AA049770043AB4B /* ContentView.swift */; };
+		B62728D72AA049790043AB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62728D62AA049790043AB4B /* Assets.xcassets */; };
+		B62728DA2AA049790043AB4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62728D92AA049790043AB4B /* Preview Assets.xcassets */; };
+		B62728E22AA049CB0043AB4B /* MonthGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728E12AA049CB0043AB4B /* MonthGrid.swift */; };
+		B62728E42AA049D70043AB4B /* backgroundTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728E32AA049D70043AB4B /* backgroundTimer.swift */; };
+		B62728E62AA049E30043AB4B /* imageStorageFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728E52AA049E30043AB4B /* imageStorageFunctions.swift */; };
+		B62728E82AA049EF0043AB4B /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728E72AA049EF0043AB4B /* Notifications.swift */; };
+		B62728EA2AA141EF0043AB4B /* initializeLaunchdAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62728E92AA141EE0043AB4B /* initializeLaunchdAgent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61722202AB255AD0081D08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62728C72AA049770043AB4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B681AA1B2AAD1E93000A169D;
+			remoteInfo = launchAgentTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B63947BF2AAE4A7C00E1A02D /* Copy Agent Property Lists */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchAgents;
+			dstSubfolderSpec = 1;
+			files = (
+				B61722252AB2701D0081D08E /* Calcer.VirgeWallpaperChangerHard.agent.plist in Copy Agent Property Lists */,
+			);
+			name = "Copy Agent Property Lists";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B681AA1A2AAD1E93000A169D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B681AA262AAD2BEF000A169D /* Embed Helper Tools yee */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				B61722242AB270070081D08E /* changeWallpaper in Embed Helper Tools yee */,
+			);
+			name = "Embed Helper Tools yee";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B617221C2AB2524B0081D08E /* mainExec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mainExec; sourceTree = "<group>"; };
+		B61722222AB26EC90081D08E /* changeWallpaper */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = changeWallpaper; sourceTree = "<group>"; };
+		B62728CF2AA049770043AB4B /* VirgeWallpaperChangerHard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirgeWallpaperChangerHard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62728D22AA049770043AB4B /* VirgeWallpaperChangerHardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgeWallpaperChangerHardApp.swift; sourceTree = "<group>"; };
+		B62728D42AA049770043AB4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B62728D62AA049790043AB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62728D92AA049790043AB4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B62728DB2AA049790043AB4B /* VirgeWallpaperChangerHard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VirgeWallpaperChangerHard.entitlements; sourceTree = "<group>"; };
+		B62728E12AA049CB0043AB4B /* MonthGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthGrid.swift; sourceTree = "<group>"; };
+		B62728E32AA049D70043AB4B /* backgroundTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundTimer.swift; sourceTree = "<group>"; };
+		B62728E52AA049E30043AB4B /* imageStorageFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageStorageFunctions.swift; sourceTree = "<group>"; };
+		B62728E72AA049EF0043AB4B /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		B62728E92AA141EE0043AB4B /* initializeLaunchdAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initializeLaunchdAgent.swift; sourceTree = "<group>"; };
+		B629736F2AAE438100184AD5 /* a.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = a.out; sourceTree = "<group>"; };
+		B681AA1C2AAD1E93000A169D /* launchAgentTarget */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = launchAgentTarget; sourceTree = BUILT_PRODUCTS_DIR; };
+		B681AA232AAD2540000A169D /* launchAgentTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = launchAgentTarget.entitlements; sourceTree = "<group>"; };
+		B6F21C7E2AAEA5A200E6DEDE /* Calcer.VirgeWallpaperChangerHard.agent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Calcer.VirgeWallpaperChangerHard.agent.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62728CC2AA049770043AB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B681AA192AAD1E93000A169D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62728C62AA049770043AB4B = {
+			isa = PBXGroup;
+			children = (
+				B62728D12AA049770043AB4B /* VirgeWallpaperChangerHard */,
+				B681AA1D2AAD1E93000A169D /* launchAgentTarget */,
+				B62728D02AA049770043AB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62728D02AA049770043AB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62728CF2AA049770043AB4B /* VirgeWallpaperChangerHard.app */,
+				B681AA1C2AAD1E93000A169D /* launchAgentTarget */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62728D12AA049770043AB4B /* VirgeWallpaperChangerHard */ = {
+			isa = PBXGroup;
+			children = (
+				B62728D22AA049770043AB4B /* VirgeWallpaperChangerHardApp.swift */,
+				B6F21C7E2AAEA5A200E6DEDE /* Calcer.VirgeWallpaperChangerHard.agent.plist */,
+				B617221C2AB2524B0081D08E /* mainExec */,
+				B61722222AB26EC90081D08E /* changeWallpaper */,
+				B62728D42AA049770043AB4B /* ContentView.swift */,
+				B62728E12AA049CB0043AB4B /* MonthGrid.swift */,
+				B62728E32AA049D70043AB4B /* backgroundTimer.swift */,
+				B62728E52AA049E30043AB4B /* imageStorageFunctions.swift */,
+				B62728E72AA049EF0043AB4B /* Notifications.swift */,
+				B62728E92AA141EE0043AB4B /* initializeLaunchdAgent.swift */,
+				B62728D62AA049790043AB4B /* Assets.xcassets */,
+				B62728DB2AA049790043AB4B /* VirgeWallpaperChangerHard.entitlements */,
+				B62728D82AA049790043AB4B /* Preview Content */,
+			);
+			path = VirgeWallpaperChangerHard;
+			sourceTree = "<group>";
+		};
+		B62728D82AA049790043AB4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B62728D92AA049790043AB4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B681AA1D2AAD1E93000A169D /* launchAgentTarget */ = {
+			isa = PBXGroup;
+			children = (
+				B681AA232AAD2540000A169D /* launchAgentTarget.entitlements */,
+				B629736F2AAE438100184AD5 /* a.out */,
+			);
+			path = launchAgentTarget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62728CE2AA049770043AB4B /* VirgeWallpaperChangerHard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62728DE2AA049790043AB4B /* Build configuration list for PBXNativeTarget "VirgeWallpaperChangerHard" */;
+			buildPhases = (
+				B62728CB2AA049770043AB4B /* Sources */,
+				B62728CC2AA049770043AB4B /* Frameworks */,
+				B62728CD2AA049770043AB4B /* Resources */,
+				B681AA262AAD2BEF000A169D /* Embed Helper Tools yee */,
+				B63947BF2AAE4A7C00E1A02D /* Copy Agent Property Lists */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61722212AB255AD0081D08E /* PBXTargetDependency */,
+			);
+			name = VirgeWallpaperChangerHard;
+			productName = VirgeWallpaperChangerHard;
+			productReference = B62728CF2AA049770043AB4B /* VirgeWallpaperChangerHard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B681AA1B2AAD1E93000A169D /* launchAgentTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B681AA222AAD1E93000A169D /* Build configuration list for PBXNativeTarget "launchAgentTarget" */;
+			buildPhases = (
+				B681AA182AAD1E93000A169D /* Sources */,
+				B681AA192AAD1E93000A169D /* Frameworks */,
+				B681AA1A2AAD1E93000A169D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = launchAgentTarget;
+			productName = launchAgentTarget;
+			productReference = B681AA1C2AAD1E93000A169D /* launchAgentTarget */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62728C72AA049770043AB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B62728CE2AA049770043AB4B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B681AA1B2AAD1E93000A169D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B62728CA2AA049770043AB4B /* Build configuration list for PBXProject "VirgeWallpaperChangerHard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62728C62AA049770043AB4B;
+			productRefGroup = B62728D02AA049770043AB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62728CE2AA049770043AB4B /* VirgeWallpaperChangerHard */,
+				B681AA1B2AAD1E93000A169D /* launchAgentTarget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62728CD2AA049770043AB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62728DA2AA049790043AB4B /* Preview Assets.xcassets in Resources */,
+				B62728D72AA049790043AB4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62728CB2AA049770043AB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62728E82AA049EF0043AB4B /* Notifications.swift in Sources */,
+				B62728D52AA049770043AB4B /* ContentView.swift in Sources */,
+				B62728E42AA049D70043AB4B /* backgroundTimer.swift in Sources */,
+				B62728E62AA049E30043AB4B /* imageStorageFunctions.swift in Sources */,
+				B62728E22AA049CB0043AB4B /* MonthGrid.swift in Sources */,
+				B62728D32AA049770043AB4B /* VirgeWallpaperChangerHardApp.swift in Sources */,
+				B62728EA2AA141EF0043AB4B /* initializeLaunchdAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B681AA182AAD1E93000A169D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61722212AB255AD0081D08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B681AA1B2AAD1E93000A169D /* launchAgentTarget */;
+			targetProxy = B61722202AB255AD0081D08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B62728DC2AA049790043AB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B62728DD2AA049790043AB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B62728DF2AA049790043AB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirgeWallpaperChangerHard/VirgeWallpaperChangerHard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VirgeWallpaperChangerHard/Preview Content\"";
+				DEVELOPMENT_TEAM = WZ5FRJ7UL4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Calcer.VirgeWallpaperChangerHard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B62728E02AA049790043AB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirgeWallpaperChangerHard/VirgeWallpaperChangerHard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VirgeWallpaperChangerHard/Preview Content\"";
+				DEVELOPMENT_TEAM = WZ5FRJ7UL4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Calcer.VirgeWallpaperChangerHard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B681AA202AAD1E93000A169D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = launchAgentTarget/launchAgentTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WZ5FRJ7UL4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_BUNDLE_IDENTIFIER = Calcer.VirgeWallpaperChangerHard.launchAgentTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B681AA212AAD1E93000A169D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = launchAgentTarget/launchAgentTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = WZ5FRJ7UL4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_BUNDLE_IDENTIFIER = Calcer.VirgeWallpaperChangerHard.launchAgentTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62728CA2AA049770043AB4B /* Build configuration list for PBXProject "VirgeWallpaperChangerHard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62728DC2AA049790043AB4B /* Debug */,
+				B62728DD2AA049790043AB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62728DE2AA049790043AB4B /* Build configuration list for PBXNativeTarget "VirgeWallpaperChangerHard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62728DF2AA049790043AB4B /* Debug */,
+				B62728E02AA049790043AB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B681AA222AAD1E93000A169D /* Build configuration list for PBXNativeTarget "launchAgentTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B681AA202AAD1E93000A169D /* Debug */,
+				B681AA212AAD1E93000A169D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62728C72AA049770043AB4B /* Project object */;
+}
